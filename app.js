@@ -6,7 +6,7 @@ import GreetingGrandChild from './components/GreetingGrandChild.js';
 const app = Vue.createApp({
     setup() {
       const count = Vue.ref(0);
-      const greetingMessage = 'Greeting from parent App component';
+      const greetingMessage = 'Greeting from parent app component';
       return {
         count,
         greetingMessage,
