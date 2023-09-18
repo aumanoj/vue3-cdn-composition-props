@@ -18,4 +18,4 @@ Before using Vite, you need to have Node.js installed on your computer. You can 
 
 
 Email - aumanojyadav@gmail.com
-Github link - GitHub link - https://github.com/aumanoj/vue3-cdn-composition
+Github link - GitHub link - https://github.com/aumanoj/vue3-cdn-composition-props
