@@ -11,7 +11,7 @@ const GreetingParent = {
       <greeting-child :greeting="message"></greeting-child>
     </div>
   `,
-};
+}
 
 export default GreetingParent
 

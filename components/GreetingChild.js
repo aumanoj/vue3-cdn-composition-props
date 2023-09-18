@@ -10,5 +10,6 @@ const GreetingChild = {
       <greeting-grand-child :greeting="greeting"></greeting-grand-child>
     </div>
   `,
-};
+}
+
 export default GreetingChild
