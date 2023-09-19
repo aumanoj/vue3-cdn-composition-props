@@ -11,9 +11,7 @@ const counter = {
     setup() {
       const count = Vue.ref(0)
       const incrementValue = Vue.ref(1)
-      const incrementCounter = (value)  =>{
-        count.value += parseInt(value)
-      }
+      const incrementCounter = increment => count.value += increment
       return{
         count,
         incrementCounter,

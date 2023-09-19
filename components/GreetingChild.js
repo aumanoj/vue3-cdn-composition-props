@@ -2,6 +2,7 @@
 const GreetingChild = {
   props: {
     greeting: String,
+    required: false
   },
   template: `
     <div class="pl-2">
