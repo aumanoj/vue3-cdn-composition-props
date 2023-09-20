@@ -5,6 +5,12 @@ import GreetingChild from './components/GreetingChild.js'
 import GreetingGrandChild from './components/GreetingGrandChild.js'
 /* init app  */
 const app = Vue.createApp({
+    template: `
+      <!-- Counter sample -->
+      <counter></counter>
+      <!-- Parent component -->
+      <greeting-parent :message="greetingMessage"></greeting-parent>
+    `,
     setup() {
       const greetingMessage = Vue.ref('Greeting from parent app component')
       return {
